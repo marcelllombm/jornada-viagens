@@ -20,6 +20,7 @@ header {
 
 .navigation-menu label img {
   cursor: pointer;
+background-color: rgb(248, 1, 1);
 }
 input[type="checkbox"]:checked ~ nav {
   display: block;
