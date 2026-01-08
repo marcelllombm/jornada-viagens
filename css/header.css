@@ -17,6 +17,10 @@ header {
 .navigation-menu {
   margin-top: 24px;
 }
+
+.navigation-menu label img {
+  cursor: pointer;
+}
 input[type="checkbox"]:checked ~ nav {
   display: block;
   position: absolute;
