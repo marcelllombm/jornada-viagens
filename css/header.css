@@ -21,6 +21,12 @@ header {
 .navigation-menu label img {
   cursor: pointer;
 }
+.img-desktop {
+  display: none;
+}
+.img-mobile {
+  display: block;
+}
 input[type="checkbox"]:checked ~ nav {
   display: block;
   position: absolute;
