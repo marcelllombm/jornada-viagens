@@ -37,17 +37,6 @@
     background-size: cover;
 }
 
-.destination-items h4 {
-    font-size: 28px;
-    font-weight: var(--titles-weight);
-}
-
-.destination-items p {
-    font-size: 20px;
-    font-weight: var(--text-weight);
-    line-height: 32px;
-}
-
 .destination-items a {
     width: 100%;
     text-align: center;
