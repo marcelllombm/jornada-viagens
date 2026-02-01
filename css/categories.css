@@ -28,8 +28,9 @@
     height: auto;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 740px) {
     .card-search {
+        padding: 0;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
