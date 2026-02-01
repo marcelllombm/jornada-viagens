@@ -1,4 +1,8 @@
-.payments .image-gallery {
+.payments .content-container {
+    padding: 24px;
+}
+
+.payments .content-container .image-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 24px;
