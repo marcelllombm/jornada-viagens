@@ -64,20 +64,17 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+    .card {
+        max-width: 450px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
     .offers-card {
-        width: 1020px;
+        flex-direction: row;
         margin: 0 auto;
     }
-    .card {
-        width: 420px;
-        height: 308px;
-    }
-    .card header h3 {
-        font-size: 48px;
-    }
+
     .card header span {
         font-size: 40px;
     }
@@ -87,6 +84,6 @@
         width: 1250px;
     }
     .card {
-        width: 588px;
+        max-width: 588px;
     }
 }
