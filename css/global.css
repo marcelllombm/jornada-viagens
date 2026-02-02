@@ -77,7 +77,8 @@ body {
 }
 
 .button {
-    width: 280px;
+    width: 100%;
+    max-width: 280px;
     height: 64px;
     color: var(--background-primary-color);
     font-weight: var(--titles-weight);
