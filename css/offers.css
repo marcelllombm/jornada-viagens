@@ -64,9 +64,6 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-    .card {
-        max-width: 450px;
-    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -75,15 +72,28 @@
         margin: 0 auto;
     }
 
+    .card {
+        margin: 0 20px;
+    }
+
     .card header span {
         font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1044px) {
+    .offers-card .card {
+        margin: 0;
+        max-width: 488px;
     }
 }
 @media screen and (min-width: 1440px) {
     .offers-card {
         width: 1250px;
     }
-    .card {
+
+    .offers-card .card {
+        margin: 0;
         max-width: 588px;
     }
 }
