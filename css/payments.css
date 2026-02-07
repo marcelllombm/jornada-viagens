@@ -24,7 +24,7 @@
     background-position: center;
 }
 
-.payments .image-gallery .trirdy {
+.payments .image-gallery .third {
     display: block;
     background: url(/img/gallery3-mobile.jpg) no-repeat center center;
     background-size: cover;
@@ -49,7 +49,7 @@
         background-size: cover;
     }
 
-    .payments .image-gallery .trirdy {
+    .payments .image-gallery .third {
         display: block;
         background: url(/img/gallery3-tablet.png) no-repeat center center;
         background-size: cover;
