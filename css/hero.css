@@ -1,5 +1,6 @@
 .hero .hero-img,
-.bottom-hero .hero-img {
+.bottom-hero .hero-img,
+.bottom-hero .hero-img-travel {
     height: 400px;
     width: 100%;
 }
@@ -19,7 +20,10 @@
     background: url(/img/bg-bottom-hero-mobilie.jpg) no-repeat center;
     background-size: cover;
 }
-
+.bottom-hero .hero-img-travel {
+    background: url(/img/travel/bg-bottom-hero-mobile-travel.png) no-repeat center;
+    background-size: cover;
+}
 .hero h2 {
     padding: 88px 24px;
     margin: 0px;
@@ -65,6 +69,11 @@
         background-size: cover;
     }
 
+    .bottom-hero .hero-img-travel {
+        height: 400px;
+        background: url(/img/travel/bg-bottom-hero-tablet-travel.jpg) no-repeat center;
+        background-size: cover;
+    }
     .travel .hero-img .section-title {
         width: 600px;
         height: 303px;
@@ -89,6 +98,12 @@
     .bottom-hero .hero-img {
         height: 600px;
         background: url(/img/bg-bottom-hero-desktop.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    .bottom-hero .hero-img-travel {
+        height: 600px;
+        background: url(/img/travel/bg-bottom-hero-tablet-travel.jpg) no-repeat center;
         background-size: cover;
     }
 }
