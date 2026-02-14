@@ -3,12 +3,18 @@
     height: 400px;
     width: 100%;
 }
-
+.travel .hero-img {
+    height: 480px;
+    width: 100%;
+}
 .hero .hero-img {
     background: url(/img/bg-hero-mobile.jpg) no-repeat center;
     background-size: cover;
 }
-
+.travel .hero-img {
+    background: url(/img/travel/japan-bg-hero-tablet.png);
+    background-size: cover;
+}
 .bottom-hero .hero-img {
     background: url(/img/bg-bottom-hero-mobilie.jpg) no-repeat center;
     background-size: cover;
@@ -21,6 +27,27 @@
     font-size: 1.25rem;
     text-align: center;
     line-height: 1.5;
+}
+
+.travel .hero-img .section-title h1 {
+    color: var(--text-secondary-color);
+    font-size: 3rem;
+    padding: 68px 24px 0;
+}
+
+.travel .hero-img .section-title hr {
+    width: 180px;
+    height: 4px;
+    background-color: var(--secondary-color);
+    border: none;
+    margin: 16px 0 58px 24px;
+}
+
+.travel .hero-img .section-title p {
+    color: var(--text-secondary-color);
+    font-size: 1.25rem;
+    padding: 0 24px 0;
+    line-height: 32px;
 }
 
 @media screen and (min-width: 768px) {
@@ -36,6 +63,17 @@
         height: 400px;
         background: url(/img/bg-bottom-hero-tablet.jpg) no-repeat center;
         background-size: cover;
+    }
+
+    .travel .hero-img .section-title {
+        width: 600px;
+        height: 303px;
+        margin: 0 auto;
+    }
+    .travel .hero-img .section-title p {
+        font-size: 32px;
+        font-weight: var(--text-weight);
+        line-height: 150%;
     }
 }
 @media screen and (min-width: 1024px) {
@@ -66,5 +104,17 @@
         height: 720px;
         background: url(/img/bg-hero-desktop.jpg) no-repeat center;
         background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .travel .hero-img .hero-container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .travel .hero-img .section-title {
+        width: 700px;
+        margin: 0;
+        height: auto;
     }
 }
