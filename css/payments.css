@@ -33,6 +33,29 @@
     grid-column: 1 / -1;
 }
 
+.number {
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.payments .image-gallery .first-travel {
+    background: url(/img/travel/japao-1.png) no-repeat center center;
+    background-size: cover;
+}
+
+.payments .image-gallery .second-travel {
+    display: block;
+    background: url(/img/travel/japao-2.png) no-repeat center center;
+    background-size: cover;
+}
+
+.payments .image-gallery .third-travel {
+    display: block;
+    background: url(/img/travel/japao-3.png) no-repeat top center;
+    background-size: cover;
+
+    grid-column: 1 / -1;
+}
 .payments .image-gallery .image.colspan-2 {
     grid-column: span 2;
 }
